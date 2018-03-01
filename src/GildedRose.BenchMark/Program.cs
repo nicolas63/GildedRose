@@ -1,9 +1,12 @@
-﻿namespace GildedRose.BenchMark
+﻿using BenchmarkDotNet.Running;
+
+namespace GildedRose.BenchMark
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            var summary = BenchmarkRunner.Run<BenchClass>();
         }
     }
 }
