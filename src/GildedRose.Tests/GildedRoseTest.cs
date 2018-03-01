@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace GildedRose.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class GildedRoseTest
     {
         [TestMethod]
         public void foo()
