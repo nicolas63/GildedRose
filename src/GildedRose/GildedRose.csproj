@@ -42,8 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GildedRoseGoldenMaster.cs" />
     <Compile Include="GildedRose.cs" />
-    <Compile Include="Items\Item.cs" />
+    <Compile Include="ItemRepository.cs" />
+    <Compile Include="Items\AgedBrieItem.cs" />
+    <Compile Include="Items\BackStagePassesItem.cs" />
+    <Compile Include="Items\CommonItem.cs" />
+    <Compile Include="Items\AbstractItem.cs" />
+    <Compile Include="Items\SulfurasItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
