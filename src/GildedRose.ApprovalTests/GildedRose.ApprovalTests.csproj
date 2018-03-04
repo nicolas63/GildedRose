@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApprovalTest.ThirtyDays.approved.txt" />
-    <Content Include="ApprovalTest.ThirtyDays.received.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GildedRose\GildedRose.csproj">
